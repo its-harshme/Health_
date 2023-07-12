@@ -1,0 +1,548 @@
+/* Reset Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f5f9f0; /* Light green background color */
+  color: #333; /* Dark text color */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Section */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #28a745;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Features Section */
+#features {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.feature-card {
+  display: inline-block;
+  width: 33.33%;
+  padding: 30px;
+  text-align: center;
+}
+
+.feature-card img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+/* Services Section */
+#services {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.service-card {
+  display: inline-block;
+  width: 33.33%;
+  padding: 30px;
+  text-align: center;
+}
+
+.service-card img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 80px 0;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form textarea {
+  height: 150px;
+}
+
+form button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Sticky Navigation Bar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #e5bbbb;
+  padding: 20px 0;
+  z-index: 999;
+}
+
+/* Push Content to the Left */
+.container {
+  margin-left: 0;
+}
+
+/* Background pic of hero section */
+#hero {
+  height: 500px; /* Adjust the height as desired */
+  background-image: url('images/hero_sec_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-container {
+  max-width: 1200px; /* Adjust the maximum width as desired */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero-text {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.hero-action {
+  text-align: left;
+}
+
+/* Theme colors */
+body {
+  background-color: #f5f9f0; /* Light green background color */
+  color: #333; /* Dark text color */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav {
+  background-color: #e7fee7; /* Light green background color for the navbar */
+}
+
+nav .nav-links li a {
+  color: #333; /* Dark text color for navbar links */
+}
+
+.nav-links {
+  list-style: none;
+  text-align: right;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+#telemedicine-header{
+  background-color: #e7fee7;
+  color: black;
+}
+
+#hero {
+  background-color: #f9f9f9; /* Optional background color for the hero section */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero-left {
+  float: left;
+  width: 50%; /* Adjust the width as desired */
+}
+
+.hero-right {
+  float: right;
+  width: 50%; /* Adjust the width as desired */
+}
+
+.hero-left h2,
+.hero-left h1,
+.hero-left p {
+  text-align: left;
+}
+
+.hero-left .btn {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.hero-right img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px; /* Add margin as desired */
+  padding: 10px; /* Add padding as desired */
+}
+
+/* How It Works Section */
+#how-it-works {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+#how-it-works .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.step {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.step img {
+  flex: 0 0 50%;
+  max-width: 100%;
+}
+
+.step-text {
+  flex: 0 0 50%;
+  padding: 0 40px;
+}
+
+.step-text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.step-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.step-text ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.step-text ul li {
+  margin-bottom: 10px;
+}
+
+/* Additional styles or overrides can be added as needed */
+/* How It Works Section */
+#how-it-works {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+#how-it-works .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.step {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.step img {
+  flex: 0 0 50%;
+  max-width: 100%;
+}
+
+.step-text {
+  flex: 0 0 50%;
+  padding: 0 40px;
+}
+
+.step-text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.step-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.step-text ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.step-text ul li {
+  margin-bottom: 10px;
+}
+
+.step-text.step-1 {
+  order: 2;
+}
+
+.step.step-1 .step-text {
+  text-align: right;
+}
+
+.step.step-1 img {
+  order: 1;
+}
+
+/* Additional styles or overrides can be added as needed */
+#hero .hero-left h2 {
+  font-size: 36px;
+}
+
+#hero .hero-left h1 {
+  font-size: 48px;
+}
+
+#hero .hero-left p {
+  font-size: 20px;
+}
+
+#hero .hero-right img {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  outline: 2px solid #bef6cb;
+}
+
+#how-it-works .step img {
+  width: 70%; /* Adjust the width as desired */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: cover;  
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media {
+  margin-right: 20px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+}
+
+
+
+#contact {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.contact-item {
+  margin: 10px;
+}
+
+.contact-icon img,
+.contact-image img {
+  width: 50px; /* Adjust the size as desired */
+  height: 50px; /* Adjust the size as desired */
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.footer-content {
+  background-color: rgb(192, 228, 192);
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.social-icons a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.scroll-to-top {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.step img {
+  max-width: 100%;
+  height: auto;
+}
+
+.step-image {
+  width: 50%;
+  height: 50%;
+}
+.meetings-iframe-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .meetings-iframe-container {
+    padding: 10px;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 2em; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 0.5em; /* Add spacing between the logo and text */
+}
+
+
+/* Apply hover effect to Features link */
+.nav-links li:nth-child(1) a:hover {
+  color: #00b209; /* Change the text color on hover */
+}
+
+/* Apply hover effect to Services link */
+.nav-links li:nth-child(2) a:hover {
+  color: #00b209; /* Change the text color on hover */
+}
+
+/* Apply hover effect to Register link */
+.nav-links li:nth-child(3) a:hover {
+  color: #00b209; /* Change the text color on hover */
+}
+
+/* Apply hover effect to Book an Appointment button */
+.hero-left .btn:hover {
+  /* background-color: #00b209; Change the background color on hover */
+  color: rgb(25, 59, 26);
+}
+
+/* Apply hover effect to Register button */
+#register .btn:hover {
+  color: rgb(25, 59, 26);
+}

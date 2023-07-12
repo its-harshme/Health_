@@ -1,0 +1,195 @@
+/* dashboard.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Header Section */
+  #dashboard-header {
+    background-color: #b2dfdb; /* Light green */
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #333; /* Dark gray */
+  }
+  
+  .nav-links {
+    text-align: right;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  /* Appointments Section */
+  #appointments {
+    background-color: #e0f2f1; /* Light teal */
+    padding: 40px 0;
+  }
+  
+  .appointment-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .appointment-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointment-item h3 {
+    color: #333;
+  }
+  
+  .appointment-item p {
+    margin: 10px 0;
+    color: #777;
+  }
+  
+  /* Profile Section */
+  #profile {
+    padding: 40px 0;
+  }
+  
+  .profile-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* text-align: right; */
+  }
+  
+  /* Settings Section */
+  #settings {
+    background-color: #e0f2f1; /* Light teal */
+    padding: 40px 0;
+  }
+  
+  .settings-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* text-align: right; */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button.btn:hover {
+    background-color: #555;
+  }
+ /* CSS Styles */
+.logo {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 2em; /* Set the height to match the font size */
+    margin-right: 0.5em; /* Add some spacing between the logo and text */
+  }
+  
+  /* Apply hover effect to Appointments link */
+.nav-links li:nth-child(1) a:hover {
+    color: #00b209; /* Change the text color on hover */
+  }
+  
+  /* Apply hover effect to Profile link */
+  .nav-links li:nth-child(2) a:hover {
+    color: #00b209; /* Change the text color on hover */
+  }
+  
+  /* Apply hover effect to Settings link */
+  .nav-links li:nth-child(3) a:hover {
+    color: #00b209; /* Change the text color on hover */
+  }
+  
+  /* Apply hover effect to Cancel button */
+  .appointment-item .btn-cancel:hover {
+   color: rgb(25, 59, 26); /* Change the background color on hover */
+  }
+  
+  /* Apply hover effect to Reschedule button */
+  .appointment-item .btn-reschedule:hover {
+    color: rgb(25, 59, 26); /* Change the background color on hover */
+  }
+  
+  /* Apply hover effect to Save Changes button */
+  .settings-form .btn:hover {
+    color:rgb(25, 59, 26); /* Change the background color on hover */
+  }
+  
+  /* Cancel button */
+.appointment-item .btn-cancel {
+    background-color: darkgreen;
+    color: white;
+  }
+  
+  /* Reschedule button */
+  .appointment-item .btn-reschedule {
+    background-color: darkgreen;
+    color: white;
+  }
+  
+  /* Save Changes button */
+  .settings-form .btn {
+    background-color: darkgreen;
+    color: white;
+  }
+  

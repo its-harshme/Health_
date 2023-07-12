@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Health Connect</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="dashboard.js">
+</head>
+<body>
+
+ <!-- Dashboard Header Section -->
+<header id="dashboard-header">
+    <div class="container">
+      <h1 class="logo">
+        <img src="images/logo-pdf_page-0001.jpg" alt="Logo">
+        Health Connect
+      </h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#appointments">Appointments</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#settings">Settings</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+
+ <!-- Appointments Section -->
+<section id="appointments">
+    <div class="container">
+      <h2>Upcoming Appointments</h2>
+      <div class="appointment-list">
+        <div class="appointment-item">
+          <h3>Appointment 1</h3>
+          <p>Date: July 10, 2023</p>
+          <p>Time: 10:00 AM</p>
+          <p>Doctor: Dr. <span id="doctor-name">HR</span></p>
+          <button class="btn btn-cancel">Cancel</button>
+        </div>
+        <div class="appointment-item">
+          <h3>Appointment 2</h3>
+          <p>Date: July 12, 2023</p>
+          <p>Time: 2:30 PM</p>
+          <p>Doctor: Dr. <span id="doctor-name">HR_2</span></p>
+          <button class="btn btn-reschedule">Reschedule</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+ <!-- Profile Section -->
+<section id="profile">
+    <div class="container">
+      <h2>Profile Information</h2>
+      <div class="profile-details">
+        <p>Name: <span id="profile-name"></span></p>
+        <p>Email: <span id="profile-email"></span></p>
+        <p>Phone: <span id="profile-phone"></span></p>
+        <p>Address: <span id="profile-address"></span></p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Settings Section -->
+  <section id="settings">
+    <div class="container">
+      <h2>Account Settings</h2>
+      <div class="settings-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" value="Its_me">
+        <label for="email">Email:</label>
+        <input type="email" id="email" value="its.me@mymail.com">
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <button type="submit" class="btn">Save Changes</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="dashboard.js"></script>
+  <script>
+    // Retrieve user data from registration form
+    const name = localStorage.getItem("name");
+    const email = localStorage.getItem("email");
+    const phone = localStorage.getItem("phone");
+    const address = localStorage.getItem("address");
+
+    // Set the user data in the profile section
+    document.getElementById("profile-name").textContent = name;
+    document.getElementById("profile-email").textContent = email;
+    document.getElementById("profile-phone").textContent = phone;
+    document.getElementById("profile-address").textContent = address;
+  </script>
+</body>
+</html>

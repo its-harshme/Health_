@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Telemedicine Website</title>
+  <link rel="stylesheet" href="trial.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!-- Telemedicine Header Section -->
+  <header id="telemedicine-header">
+    <div class="container">
+      <h1 class="logo">
+        <img src="images/logo-pdf_page-0001.jpg" alt="Logo">
+        Health Connect
+      </h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#register">Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-left">
+   
+        <h1>Get Quality Healthcare from the Comfort of Your Home</h1>
+        <p>Telemedicine web apps provide convenient access to healthcare professionals through video, audio, and chat consultations.</p>
+        <a href="#" class="btn" onclick="openMeetings()">Book an Appointment</a>
+
+      </div>
+      <div class="hero-right">
+        <img src="images/hero_sec_bg_image.jpg" alt="Hero Image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Start of Meetings Embed Script -->
+  <div id="meetings-container" class="meetings-iframe-container" data-src="https://meetings.hubspot.com/harshkumar-rv?embed=true"></div>
+  <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+  <!-- End of Meetings Embed Script -->
+
+  <!-- Features Section -->
+  <section id="features">
+    <div class="container">
+      <h2>Key Features</h2>
+      <div class="feature-card">
+        <img src="images/doctor's consulting.jpg" alt="Video Consultation">
+        <h3>Video Consultation</h3>
+        <p>Connect with doctors through secure video calls for face-to-face consultations.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/online prescription.jpg" alt="Online Prescription">
+        <h3>Online Prescription</h3>
+        <p>Receive digital prescriptions from doctors and access them anytime, anywhere.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/payment.jpg" alt="Secure Payment">
+        <h3>Secure Payment</h3>
+        <p>Make online payments securely using various payment methods.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-card">
+        <img src="images/genera consultant.png" alt="General Consultation">
+        <h3>General Consultation</h3>
+        <p>Consult with doctors for general healthcare advice, diagnosis, and treatment.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/Specialist Consultation.jpg" alt="Specialist Consultation">
+        <h3>Specialist Consultation</h3>
+        <p>Get expert opinions and specialized care from various medical specialists.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/Online Lab Tests.png" alt="Online Lab Tests">
+        <h3>Online Lab Tests</h3>
+        <p>Order lab tests online and receive accurate results through our partner labs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Register Section -->
+  <section id="register">
+    <div class="container">
+      <h2>Register</h2>
+      <form id="registration-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Confirm Password" required>
+        <button type="submit" class="btn">Register</button>
+      </form>
+    </div>
+  </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+          <p>&copy; 2023 Health Connect.</p>
+          <div class="social-icons">
+              <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+          </div>
+          <a href="#" class="scroll-to-top"><i class="fa fa-arrow-up"></i></a>
+      </div>
+  </footer>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
